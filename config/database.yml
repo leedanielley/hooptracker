@@ -51,10 +51,10 @@ test:
   username: hooptracker
   password:
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: hooptracker_production
-  pool: 5
-  username: hooptracker
-  password:
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: hooptracker_production
+#   pool: 5
+#   username: hooptracker
+#   password:
