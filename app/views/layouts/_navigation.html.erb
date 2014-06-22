@@ -1,0 +1,10 @@
+<nav>
+	<ul class="navbar">
+		Date is <%= Date.today %>
+		<% if user_signed_in? %>
+			<%= render 'layouts/signed_in_navigation' %>
+		<% else %>
+			<%= render 'layouts/signed_out_navigation' %>
+		<% end %>
+	</ul>
+</nav>
