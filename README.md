@@ -12,8 +12,12 @@ This project will be a tracker for people checking into a hoop jam. It is curren
 	rake db:migrate
 	rake test:prepare
 
-- Deploy to Heroku as follows:
-	git push heroku
+- Deploy to Heroku-staging as follows:
+	git push heroku-staging
+	heroku run rake db:migrate
+
+- Deploy to Heroku-production as follows:
+	git push heroku-production 
 	heroku run rake db:migrate
 
 Future documentation may include:
