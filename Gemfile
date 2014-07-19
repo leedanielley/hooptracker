@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 1.2'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-its'
 end
 
 group :test do
