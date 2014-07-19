@@ -40,6 +40,7 @@ group :test do
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+  gem 'launchy'
 end
 
 gem 'rails_12factor', group: :production
@@ -59,6 +60,6 @@ gem 'unicorn'
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
 
 gem 'devise'
