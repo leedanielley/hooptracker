@@ -1,3 +1,4 @@
 Then(/^I should be a registered user$/) do
-  pending # express the regexp above with the code you wish you had
+  new_user = User.last
+  expect(new_user.email).to eql('lunabreeze@hooping.org')
 end

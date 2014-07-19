@@ -1,5 +1,5 @@
 Given(/^I visit the home page$/) do
-  visit "/"
+  visit root_path
 end
 
 When(/^I follow the "(.*?)" link$/) do |link_text|
@@ -11,5 +11,5 @@ Then(/^I should be on the registration page$/) do
 end
 
 Then(/^I should be on the home page$/) do
-  pending # express the regexp above with the code you wish you had
+  expect(current_path).to eql root_path
 end
